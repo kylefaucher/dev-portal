@@ -29,16 +29,16 @@ a:visited {
   color: black; }
 
 #home:hover {
-  color: #5111ff; }
+  color: #1118ff; }
 
 #github:hover {
-  color: #30ffdc; }
+  color: #FA7268; }
 
 a:hover {
-  color: #5111ff; }
+  color: #1118ff; }
 
 .container {
-  background: linear-gradient(45deg, #5111ff 50%, #30ffdc 50%);
+  background: linear-gradient(45deg, #1118ff 50%, #FA7268 50%);
   top: 40px;
   bottom: 30px;
   max-width: 100%;
@@ -67,7 +67,7 @@ h1 {
   padding-bottom: 110px; }
 
 h2 {
-  color: #5111ff;
+  color: #1118ff;
   font-size: 5em;
   font-weight: 700;
   text-align: center;
@@ -75,10 +75,27 @@ h2 {
   padding-top: 50px; }
 
 footer {
-  color: #5111ff;
+  color: #1118ff;
   font-size: 4em;
   padding: 40px; }
   footer a:visited {
-    color: #5111ff; }
+    color: #1118ff; }
+
+.projects ul li {
+  color: white;
+  background: linear-gradient(45deg, #FA7268 80%, white 50%);
+  margin-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .projects ul li a {
+    color: white;
+    font-size: 2em;
+    font-weight: 600; }
+  .projects ul li img {
+    height: 50px; }
+
+.bottombackground {
+  height: 200px;
+  background: linear-gradient(175deg, white 50%, #1118ff 50%); }
 
 /*# sourceMappingURL=main.css.map */

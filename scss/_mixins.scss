@@ -52,3 +52,30 @@
 		color: $color1;
 	}
 }
+
+@mixin projectdesign{
+
+	ul{
+		li{
+			color: white;
+			background: linear-gradient(45deg, $color2 80%, white 50%);
+			margin-bottom: 100px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+
+			a{
+				color: white;
+				font-size: 2em;
+				font-weight: 600;
+			}//a
+			img{
+				height: 50px;
+				
+				
+			}
+		}//li
+	}//ul
+}
+
+
+

@@ -67,10 +67,19 @@ h1{
 
 h2{
 	@include header2design;
-	
+
 }
 
 footer{
 	@include footerstyle;
 
+}
+
+.projects{
+	@include projectdesign;
+}
+
+.bottombackground{
+	height: 200px;
+	background:linear-gradient(175deg, white 50%, $color1 50%);;
 }

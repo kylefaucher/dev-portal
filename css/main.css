@@ -63,6 +63,22 @@ h1 {
   font-weight: 700;
   text-align: left;
   padding: 80px;
+  padding-top: 50px;
+  padding-bottom: 110px; }
+
+h2 {
+  color: #5111ff;
+  font-size: 5em;
+  font-weight: 700;
+  text-align: center;
+  padding: 80px;
   padding-top: 50px; }
+
+footer {
+  color: #5111ff;
+  font-size: 4em;
+  padding: 40px; }
+  footer a:visited {
+    color: #5111ff; }
 
 /*# sourceMappingURL=main.css.map */

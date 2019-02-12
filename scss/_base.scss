@@ -65,4 +65,10 @@ h1{
 	@include headerdesign;
 }
 
+h2{
+	@include header2design;
+}
 
+footer{
+	@include footerstyle;
+}

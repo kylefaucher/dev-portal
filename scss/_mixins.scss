@@ -8,6 +8,7 @@
 		margin-bottom: 0px;
 	}
 	letter-spacing: 2px;
+
 }
 
 @mixin navdesign{
@@ -29,9 +30,25 @@
 	text-align: left;
 	padding: 80px;
 	padding-top: 50px;
-	
+	padding-bottom: 110px;
+}
 
 
+@mixin header2design{
+	color: $color1;
+	font-size: 5em;
+	font-weight: 700;
+	text-align: center;
+	padding: 80px;
+	padding-top: 50px;
 
+}
 
+@mixin footerstyle{
+	color: $color1;
+	font-size: 4em;
+	padding: 40px;
+	a:visited{
+		color: $color1;
+	}
 }

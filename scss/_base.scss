@@ -33,9 +33,21 @@ a:visited{
 	color: $fontcolor;
 }
 
+#home:hover{
+		color: $color1;
+	}
+
+#github:hover{
+		color: $color2;
+	}
+
+a:hover{
+	color: $hovercolor;
+}
+
 .container{
 	background: $bkgrd;
-	position: absolute;
+	//position: absolute;
 	top: 40px;
 	bottom: 30px;
 	max-width: 100%;
@@ -45,3 +57,12 @@ a:visited{
 nav{
 	@include navdesign;
 }
+
+
+
+h1{
+	
+	@include headerdesign;
+}
+
+

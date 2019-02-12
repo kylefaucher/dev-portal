@@ -20,7 +20,7 @@ time, mark, audio, video {
 
 body {
   text-align: center;
-  font-family: "Work Sans", sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 a {
   text-decoration: none; }
@@ -28,24 +28,41 @@ a {
 a:visited {
   color: black; }
 
+#home:hover {
+  color: #5111ff; }
+
+#github:hover {
+  color: #30ffdc; }
+
+a:hover {
+  color: #5111ff; }
+
 .container {
-  background: linear-gradient(90deg, #fdcd3b 50%, #ffed4b 50%);
-  position: absolute;
+  background: linear-gradient(45deg, #5111ff 50%, #30ffdc 50%);
   top: 40px;
   bottom: 30px;
   max-width: 100%;
   width: 100%; }
 
 nav {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.2em;
   font-weight: 700; }
   nav ul {
     display: flex;
     list-style: none;
-    justify-content: space-between; }
+    justify-content: space-between;
+    letter-spacing: 2px; }
     nav ul li {
       padding: 10px;
-      margin-bottom: 20px; }
+      margin-bottom: 0px; }
+
+h1 {
+  color: #ffffff;
+  font-size: 12em;
+  font-weight: 700;
+  text-align: left;
+  padding: 80px;
+  padding-top: 50px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,44 @@
+@import 'icon/*.png';
+@include all-icon-sprites;
+
+body{
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 2em;
+	font-weight: 400;
+	letter-spacing: -4px;
+	color: gainsboro;
+	background-color: gainsboro;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.container{
+	margin-top: 0;
+	text-align: center;
+	background-color: white;
+	margin-left: 40px;
+	margin-right: 40px;
+	// width: 600px;
+}
+html{
+	margin-top: 0;
+	padding-top: 0;
+}
+
+li {
+	list-style: none;
+	// display: inline-block;
+	padding: 10px;
+	a{
+		display: inline-block;
+		width: 150px;
+		height: 150px;
+
+		span{
+			position: absolute;
+			top: -9999em;
+			left: -9999em;
+		}
+	}
+}

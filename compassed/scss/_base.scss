@@ -1,0 +1,10 @@
+body{
+	@include background(linear-gradient(to bottom, white, gainsboro))
+
+}
+
+header{
+	h1{
+		@include heading;
+	}
+}
